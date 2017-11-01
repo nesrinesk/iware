@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:weightSum="1"
+    android:background="@color/colorPrimaryTrans"
+    >
+    <!--  Email Label -->
+    <!--  Password Label -->
+    <!-- Login button -->
+    <Button android:id="@+id/btnOpen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Open PDF - افتح الملف"/>
+
+    <Button android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="50dip"
+        android:text="Logout - خروج"
+        />
+    <!-- Link to Registration Screen -->
+</LinearLayout>
+    <!-- Login Form Ends -->

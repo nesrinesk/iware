@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CSE_Mobile</string>
+    <string name="baseUrl">http://192.168.43.45:8086/Controller/</string>
+    <string name="pdfUrl">http://192.168.43.45:8086/Controller/download/</string>
+    <string-array name="alert_list">
+        <item>Méteo</item>
+        <item>Embouteillage</item>
+        <item>Accident</item>
+        <item>Panne</item>
+        <item>Travaux</item>
+
+    </string-array>
+</resources>

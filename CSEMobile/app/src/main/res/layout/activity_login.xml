@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.i_ware.projet_cse_mobile.SplashActivity"
+    tools:layout_editor_absoluteY="89dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@drawable/elektrontechnology">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimaryTrans"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="-36dp">
+
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="232dp"
+            android:layout_height="33dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/enterlogin"
+            android:text="أدخل الرقم السري "
+            android:layout_marginTop="134dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="330dp"
+            android:layout_height="33dp"
+
+            android:layout_alignLeft="@+id/btnLogin"
+            android:layout_alignStart="@+id/btnLogin"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/imputlogin"
+            android:ems="10"
+            android:hint="Reference"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:background="@drawable/login"
+            android:layout_below="@+id/editText"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="69dp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
